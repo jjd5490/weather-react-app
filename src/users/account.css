@@ -1,0 +1,11 @@
+.user-label {
+  text-align: right;
+  width: 100%;
+  text-wrap: nowrap;
+}
+
+.account-container {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}

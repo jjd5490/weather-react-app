@@ -1,0 +1,13 @@
+.center-text {
+  text-align: center;
+}
+
+.right-sidebar {
+  width: 375px;
+  height: 100vh;
+  border-left: 1px solid #2d2d34;
+}
+
+.siderbar-label {
+  font-size: 1.25rem;
+}

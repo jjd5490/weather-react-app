@@ -1,0 +1,76 @@
+.forecast-tab {
+  cursor: pointer !important;
+  color: white;
+}
+
+.forecast-tab:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.active {
+  background-color: #2d2d34 !important;
+  color: white !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+}
+
+.table * {
+  background-color: #2d2d34 !important;
+  /* border: 1px solid #2d2d34;
+  border-radius: 5px !important; */
+}
+
+.table-header {
+  position: sticky !important;
+}
+
+.bookmark-btn:hover {
+  cursor: pointer;
+}
+
+.comment {
+  background-color: #2d2d34;
+  color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #2d2d34;
+}
+
+.comment-username {
+  font-size: 1.3rem;
+}
+.comment-username:hover {
+  text-decoration: underline;
+}
+
+.my-li {
+  list-style-type: none;
+}
+
+.heart * {
+  color: red;
+}
+
+.like-btn {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.time-container {
+  display: flex;
+  height: 100%;
+}
+
+.time {
+  display: inline-block;
+  align-self: flex-end;
+  font-size: 0.85rem;
+}
+
+.comment-text {
+  font-size: 0.95rem;
+  min-height: 50px;
+  /* border: 1px solid grey;
+  border-radius: 5px; */
+}

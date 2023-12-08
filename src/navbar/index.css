@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid #2d2d34;
+}
+
+.nav-active-item * {
+  color: #ffffff !important;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 3px !important;
+}
+
+.no-underline {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
