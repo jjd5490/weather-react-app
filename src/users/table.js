@@ -76,7 +76,7 @@ function UserTable() {
             <td>
               <input
                 style={{ color: "white" }}
-                className="form-control w-75"
+                className="form-control w-75 white-text"
                 placeholder="Username"
                 value={user.username}
                 onChange={(e) => setUser({ ...user, username: e.target.value })}
@@ -84,7 +84,7 @@ function UserTable() {
             </td>
             <td>
               <input
-                className="form-control w-75"
+                className="form-control w-75 white-text"
                 placeholder="Password"
                 type="password"
                 value={user.password}
@@ -93,7 +93,7 @@ function UserTable() {
             </td>
             <td>
               <input
-                className="form-control w-75"
+                className="form-control w-75 white-text"
                 value={user.firstName}
                 placeholder="Tony"
                 onChange={(e) =>
@@ -104,14 +104,14 @@ function UserTable() {
             <td>
               <input
                 placeholder="Stark"
-                className="form-control w-75"
+                className="form-control w-75 white-text"
                 value={user.lastName}
                 onChange={(e) => setUser({ ...user, lastName: e.target.value })}
               />
             </td>
             <td>
               <select
-                className="form-control w-75"
+                className="form-control w-75 white-text"
                 value={user.role}
                 onChange={(e) => setUser({ ...user, role: e.target.value })}
               >

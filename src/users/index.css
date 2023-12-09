@@ -1,7 +1,15 @@
-.form-control {
+/* .form-control {
+  color: white !important;
+} */
+
+/* .form-control::placeholder {
+  color: white !important;
+} */
+
+.white-text {
   color: white !important;
 }
 
-.form-control::placeholder {
+.white-text::placeholder {
   color: white !important;
 }
