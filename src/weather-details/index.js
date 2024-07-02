@@ -294,9 +294,6 @@ function WeatherDetail(props) {
                     Prec <IoWater className="mb-1" />
                   </th>
                   <th scope="col">
-                    Humidity <RiMistFill className="mb-1" />
-                  </th>
-                  <th scope="col">
                     Wind <FiWind className="mb-1" />
                   </th>
                 </tr>
@@ -313,7 +310,6 @@ function WeatherDetail(props) {
                         : d.probabilityOfPrecipitation.value}
                       %
                     </td>
-                    <td>{d.relativeHumidity.value}%</td>
                     <td>{d.windSpeed}</td>
                   </tr>
                 ))}
